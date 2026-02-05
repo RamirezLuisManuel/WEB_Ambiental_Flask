@@ -1,0 +1,74 @@
+{% extends "base.html" %} 
+{% block content %}
+
+<div class="row align-items-center py-4">
+    <div class="col-lg-7">
+        <h2 class="display-6 text-success fw-bold mb-3">Sistema de Gestión Ambiental (SGA)</h2>
+        <p class="lead">
+            Un SGA es un marco administrativo diseñado para ayudar a las organizaciones a reducir su impacto ambiental y aumentar su eficiencia operativa.
+        </p>
+        <p class="text-muted">
+            A través de políticas y procedimientos estructurados, las empresas pueden cumplir con normativas ecológicas y optimizar el uso de sus recursos.
+        </p>
+        
+        <div class="alert alert-success border-0 shadow-sm d-flex align-items-center">
+            <div class="me-3">
+                <h1 class="mb-0">📜</h1>
+            </div>
+            <div>
+                <strong>Norma ISO 14001:</strong> Es el estándar internacional más reconocido. 
+                Se rige por el ciclo <strong>PHVA</strong>: Planificar, Hacer, Verificar y Actuar.
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-5 mt-4 mt-lg-0">
+        <img
+          src="{{ url_for('static', filename='images/sistema.jpg') }}"
+          class="img-fluid rounded shadow"
+          alt="Gestión Ambiental"
+        />
+    </div>
+</div>
+
+<hr class="my-5">
+
+<div class="row text-center">
+    <div class="col-12 mb-4">
+        <h4 class="fw-bold">Objetivos Principales del SGA</h4>
+    </div>
+    
+    <div class="col-md-3 mb-3">
+        <div class="p-3 border-0 shadow-sm h-100 bg-white rounded">
+            <div class="h2 mb-2">⚖️</div>
+            <h6 class="fw-bold">Cumplimiento</h6>
+            <p class="small text-muted mb-0">Asegurar el respeto a la legislación ambiental vigente.</p>
+        </div>
+    </div>
+    
+    <div class="col-md-3 mb-3">
+        <div class="p-3 border-0 shadow-sm h-100 bg-white rounded">
+            <div class="h2 mb-2">🔍</div>
+            <h6 class="fw-bold">Riesgos</h6>
+            <p class="small text-muted mb-0">Identificación temprana de posibles impactos y riesgos.</p>
+        </div>
+    </div>
+    
+    <div class="col-md-3 mb-3">
+        <div class="p-3 border-0 shadow-sm h-100 bg-white rounded">
+            <div class="h2 mb-2">💧</div>
+            <h6 class="fw-bold">Eficiencia</h6>
+            <p class="small text-muted mb-0">Reducción del desperdicio de energía, agua y materias primas.</p>
+        </div>
+    </div>
+    
+    <div class="col-md-3 mb-3">
+        <div class="p-3 border-0 shadow-sm h-100 bg-white rounded">
+            <div class="h2 mb-2">📈</div>
+            <h6 class="fw-bold">Mejora</h6>
+            <p class="small text-muted mb-0">Optimización continua del desempeño ecológico.</p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

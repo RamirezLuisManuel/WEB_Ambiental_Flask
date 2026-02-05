@@ -1,0 +1,59 @@
+{% extends "base.html" %} 
+
+{% block content %}
+<div class="py-4">
+    <div class="row align-items-center mb-5">
+        <div class="col-lg-12 text-center">
+            <h1 class="display-4 fw-bold text-success mb-3">La Importancia del Medio Ambiente</h1>
+            <p class="lead fs-4 text-muted">
+                El medio ambiente es el entorno integral que rodea a los seres vivos, compuesto por elementos naturales (aire, agua, suelo, biodiversidad) y artificiales (cultura, ciudades, tecnología) que interactúan entre sí. Es un sistema dinámico fundamental para la supervivencia humana que provee servicios ambientales esenciales, siendo el hogar de todos los seres vivos.
+            </p>
+        </div>
+    </div>
+
+    <div class="row g-4 text-center">
+        <img
+          src="{{ url_for('static', filename='images/ambiente.jpg') }}"
+          class="img-fluid rounded shadow-lg w-100"
+          style="max-height: 400px; object-fit: cover;"
+          alt="Economía circular"
+        />
+        <div class="col-md-6 col-lg-3">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="display-5 mb-2">🍃</div>
+                    <h5>Sustento Básico</h5>
+                    <p class="lead text-muted">El medio ambiente es el sustento básico de la vida, proporcionando recursos esenciales como aire limpio, agua potable, alimentos y materiales, componentes cruciales para la supervivencia humana y de todos los seres vivos. Comprende elementos bióticos (flora, fauna) y abióticos (agua, suelo, clima) que forman ecosistemas, los cuales, si se cuidan, garantizan la sostenibilidad y el equilibrio natural.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="display-5 mb-2">🌡️</div>
+                    <h5>Regulación</h5>
+                    <p class="lead text-muted">La regulación de la temperatura ambiental implica procesos naturales (ecosistemas, atmósfera) y artificiales (climatización) que mantienen el clima dentro de rangos habitables o controlados. A gran escala, la vegetación y los océanos estabilizan el clima, mientras que a escala local se usan sistemas de aire acondicionado, ventilación y aislamiento para control térmico.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="display-5 mb-2">💰</div>
+                    <h5>Valor Económico</h5>
+                    <p class="lead text-muted">El valor económico del medio ambiente representa el beneficio monetario de los bienes y servicios ecosistémicos, esencial para la sostenibilidad y la toma de decisiones, a menudo superando el PIB mundial en valor de servicios como regulación climática, agua y materias primas. La valoración económica ambiental asigna un valor monetario a estos recursos para integrar la conservación en análisis de costo-beneficio, impulsando el desarrollo sostenible.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="display-5 mb-2">🏥</div>
+                    <h5>Salud Pública</h5>
+                    <p class="lead text-muted">La salud pública ambiental aborda cómo factores físicos, químicos y biológicos del entorno influyen en la salud, reconociendo que el 23% de las muertes mundiales se deben a causas ambientales. La contaminación del aire, agua y suelo, junto al cambio climático, provoca enfermedades cardiovasculares, respiratorias y crónicas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

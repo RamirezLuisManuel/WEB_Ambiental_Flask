@@ -1,0 +1,82 @@
+{% extends "base.html" %} 
+{% block content %}
+
+<div class="py-4">
+    <div class="text-center mb-5">
+        <h2 class="display-5 text-success fw-bold">Las 3 R del Cuidado Ambiental</h2>
+        <p class="lead mx-auto" style="max-width: 800px;">
+            Es la jerarquía estratégica para la gestión de residuos. El secreto del éxito ambiental 
+            está en priorizar las acciones: <strong>la mejor basura es la que no se genera.</strong>
+        </p>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card-header bg-success text-white py-3 border-0">
+                </div>
+                <div class="card-body">
+                    <div class="display-4 mb-3">📉</div>
+                    <h4 class="fw-bold text-success">Reducir</h4>
+                    <p class="text-muted">
+                        <strong>La más efectiva.</strong> Consiste en evitar el consumo innecesario y el exceso de embalajes. Si no generas el residuo, eliminas el problema de raíz.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card-header bg-success opacity-75 text-white py-3 border-0">
+                </div>
+                <div class="card-body">
+                    <div class="display-4 mb-3">🔄</div>
+                    <h4 class="fw-bold text-success">Reutilizar</h4>
+                    <p class="text-muted">
+                        Darle una segunda vida a los objetos, ya sea con su uso original o uno creativo, antes de desecharlos. Alarga la utilidad de los recursos.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card-header bg-secondary text-white py-3 border-0">
+                </div>
+                <div class="card-body">
+                    <div class="display-4 mb-3">♻️</div>
+                    <h4 class="fw-bold text-success">Reciclar</h4>
+                    <p class="text-muted">
+                        Transformar residuos en materia prima. Requiere energía y procesos industriales; es nuestra <strong>"última línea de defensa"</strong>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5 p-4 bg-light rounded shadow-sm border-start border-success border-4">
+        <div class="row align-items-center">
+            <div class="col-md-1 text-center">
+                <h2 class="mb-0">💡</h2>
+            </div>
+            <div class="col-md-11">
+                <h5 class="fw-bold mb-1">Dato extra: Hacia las 5 R's</h5>
+                <p class="mb-0 text-muted">
+                    La visión moderna añade: <strong>Rechazar</strong> (lo que no necesitas, como plásticos de un solo uso) y 
+                    <strong>Recuperar</strong> (materiales o energía de procesos industriales).
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <img
+          src="{{ url_for('static', filename='images/reciclaje.jpg') }}"
+          class="img-fluid rounded shadow-lg w-100"
+          style="max-height: 400px; object-fit: cover;"
+          alt="Economía circular"
+        />
+    </div>
+</div>
+
+{% endblock %}
