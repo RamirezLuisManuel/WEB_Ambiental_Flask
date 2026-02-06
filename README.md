@@ -20,23 +20,23 @@ El proyecto sigue la convención estándar de Flask, separando la lógica del se
 
 web_medio_ambiente/
 
-├── app.py               # Servidor y lógica de rutas
-
-├── static/                 # Recursos estáticos
-
-│   └── images/         # Banco de imágenes del proyecto
-
-└── templates/          # Vistas HTML (Jinja2)
-
-    ├── base.html       # Plantilla maestra (Layout)
+    ├── app.py               # Servidor y lógica de rutas
     
-    ├── index.html      # Página de inicio (importancia del medio ambiente)
+    ├── static/              # Recursos estáticos
     
-    ├── sistema.html   # Sistema de gestión ambiental
+    │   └── images/         # Banco de imágenes del proyecto
     
-    ├── futuro.html     # Sostenibilidad
+    └── templates/          # Vistas HTML (Jinja2)
     
-    └── tres_r.html     # Las 3 erres del cuidado ambiental
+        ├── base.html       # Plantilla maestra (Layout)
+        
+        ├── index.html      # Página de inicio (importancia del medio ambiente)
+        
+        ├── sistema.html   # Sistema de gestión ambiental
+        
+        ├── futuro.html     # Sostenibilidad
+        
+        └── tres_r.html     # Las 3 erres del cuidado ambiental
     
 
 ## 4. Implementación del Backend (Flask)
@@ -72,13 +72,13 @@ Resultado esperado: La aplicación estará disponible en http://127.0.0.1:5000.
 **Nota Técnica**: El modo debug=True se mantuvo activo durante el desarrollo para permitir la recarga automática del servidor tras cada modificación en los archivos HTML o Python.
 
 ### Vista index
-<img src="https://drive.google.com/file/d/1t8DBcpa8h1bV8JA1ar3k74Ioiegwk4Xa/view?usp=sharing" width="300" height="200">
+<img src="[https://drive.google.com/file/d/1t8DBcpa8h1bV8JA1ar3k74Ioiegwk4Xa/view?usp=sharing](https://github.com/RamirezLuisManuel/WEB_Ambiental_Flask/blob/main/static/images/Vista_Index.png)" width="300" height="200">
 
 ### Vista sistema
-<img src="https://drive.google.com/file/d/1NU5PITVfXDxRZU2nsmxVR4sLXyM7wxRN/view?usp=sharing" width="300" height="200">
+<img src="[https://drive.google.com/file/d/1t8DBcpa8h1bV8JA1ar3k74Ioiegwk4Xa/view?usp=sharing](https://github.com/RamirezLuisManuel/WEB_Ambiental_Flask/blob/main/static/images/Vista_Sistema.png)" width="300" height="200">
 
 ### Vista futuro
-<img src="https://drive.google.com/file/d/1gxP-0tsj-6SVO0slMjKcFxw_G49qO_Sx/view?usp=sharing" width="300" height="200">
+<img src="[https://drive.google.com/file/d/1t8DBcpa8h1bV8JA1ar3k74Ioiegwk4Xa/view?usp=sharing](https://github.com/RamirezLuisManuel/WEB_Ambiental_Flask/blob/main/static/images/Vista_Futuro.png)" width="300" height="200">
 
 ### Vista tres_r
-<img src="https://drive.google.com/file/d/1LfsNSZ9jux_Ez9C8KgxP92eimehyLZRt/view?usp=sharing" width="300" height="200">
+<img src="[https://drive.google.com/file/d/1t8DBcpa8h1bV8JA1ar3k74Ioiegwk4Xa/view?usp=sharing](https://github.com/RamirezLuisManuel/WEB_Ambiental_Flask/blob/main/static/images/Vista_Tres_r.png)" width="300" height="200">
