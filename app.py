@@ -27,7 +27,8 @@ def futuro():
 def tres_r():
     return render_template(
         'tres_r.html',
-        breadcrumn=["Inicio","Las 3 R"] 
+        breadcrumb=["Inicio", "Las 3 R"] 
     )
+
 if __name__=='__main__':
     app.run(debug=True)
