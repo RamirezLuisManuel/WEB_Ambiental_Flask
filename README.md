@@ -71,14 +71,16 @@ Resultado esperado: La aplicación estará disponible en http://127.0.0.1:5000.
 
 **Nota Técnica**: El modo debug=True se mantuvo activo durante el desarrollo para permitir la recarga automática del servidor tras cada modificación en los archivos HTML o Python.
 
+
+
 ### Vista index
-<img src="[https://drive.google.com/file/d/1t8DBcpa8h1bV8JA1ar3k74Ioiegwk4Xa/view?usp=sharing](https://github.com/RamirezLuisManuel/WEB_Ambiental_Flask/blob/main/static/images/Vista_Index.png)" width="300" height="200">
+<img src="https://github.com/RamirezLuisManuel/WEB_Ambiental_Flask/blob/main/static/images/Vista_Index.png?raw=true" width="300" height="200">
 
 ### Vista sistema
-<img src="[https://drive.google.com/file/d/1t8DBcpa8h1bV8JA1ar3k74Ioiegwk4Xa/view?usp=sharing](https://github.com/RamirezLuisManuel/WEB_Ambiental_Flask/blob/main/static/images/Vista_Sistema.png)" width="300" height="200">
+<img src="https://github.com/RamirezLuisManuel/WEB_Ambiental_Flask/blob/main/static/images/Vista_Sistema.png?raw=true" width="300" height="200">
 
 ### Vista futuro
-<img src="[https://drive.google.com/file/d/1t8DBcpa8h1bV8JA1ar3k74Ioiegwk4Xa/view?usp=sharing](https://github.com/RamirezLuisManuel/WEB_Ambiental_Flask/blob/main/static/images/Vista_Futuro.png)" width="300" height="200">
+<img src="https://github.com/RamirezLuisManuel/WEB_Ambiental_Flask/blob/main/static/images/Vista_Futuro.png?raw=true" width="300" height="200">
 
 ### Vista tres_r
-<img src="[https://drive.google.com/file/d/1t8DBcpa8h1bV8JA1ar3k74Ioiegwk4Xa/view?usp=sharing](https://github.com/RamirezLuisManuel/WEB_Ambiental_Flask/blob/main/static/images/Vista_Tres_r.png)" width="300" height="200">
+<img src="https://github.com/RamirezLuisManuel/WEB_Ambiental_Flask/blob/main/static/images/Vista_Tres_r.png?raw=true" width="300" height="200">
