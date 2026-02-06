@@ -19,51 +19,29 @@ pip install flask
 El proyecto sigue la convención estándar de Flask, separando la lógica del servidor de los recursos estáticos y las vistas.
 
 web_medio_ambiente/
+
 ├── app.py               # Servidor y lógica de rutas
+
 ├── static/                 # Recursos estáticos
+
 │   └── images/         # Banco de imágenes del proyecto
+
 └── templates/          # Vistas HTML (Jinja2)
+
     ├── base.html       # Plantilla maestra (Layout)
+    
     ├── index.html      # Página de inicio (importancia del medio ambiente)
+    
     ├── sistema.html   # Sistema de gestión ambiental
+    
     ├── futuro.html     # Sostenibilidad
+    
     └── tres_r.html     # Las 3 erres del cuidado ambiental
+    
 
 ## 4. Implementación del Backend (Flask)
 El archivo app.py gestiona las peticiones del usuario y renderiza las vistas correspondientes, inyectando datos dinámicos como las migas de pan (breadcrumbs).
 from flask import Flask, render_template
-
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return render_template(
-        'index.html',
-        breadcrumb=["Inicio"]
-    )
-
-@app.route('/sistema-ambiental')
-def sistema():
-    return render_template(
-        'sistema.html',
-        breadcrumb=["Inicio", "Sistema de Gestión Ambiental"]
-    )
-
-@app.route('/futuro')
-def futuro():
-    return render_template(
-        'futuro.html',
-        breadcrumb=["Inicio", "Futuro del Planeta"]
-    )
-
-@app.route('/tres-r')
-def tres_r():
-    return render_template(
-        'tres_r.html',
-        breadcrumn=["Inicio","Las 3 R"] 
-    )
-if __name__=='__main__':
-    app.run(debug=True)
     
 ## 5. Frontend y Diseño Responsivo
 La interfaz se diseñó bajo el concepto de Herencia de Plantillas, lo que permite mantener un diseño consistente sin duplicar código.
@@ -75,15 +53,17 @@ Se utilizaron Containers, Rows y Cols para asegurar que la web sea accesible des
 ### Estética Visual
 Se implementaron tarjetas (cards) con sombras y efectos de elevación para mejorar la experiencia de usuario.
 
-#### Paso A: Inicio (importancia del medioambiente)
+#### Paso A: Inicio (importancia del medioambiente
 Se implemento una vista de inicio donde se describe la importancia del medio ambiente como sustento básico, regulador de la temperatura, valor económico y salud pubica.
+
 #### Paso B: El Sistema de Gestión (SGA)
 Se implementó una vista técnica que explica la norma ISO 14001, utilizando el ciclo PHVA (Planificar, Hacer, Verificar, Actuar) como eje central de la información.
+
 #### Paso C: El Futuro y Sostenibilidad
 En esta sección se integró el concepto de Desarrollo Sostenible, destacando la ética intergeneracional mediante bloques de texto resaltados.
+
 #### Paso D: Las 3 R's
 Se diseñó una cuadrícula de tres columnas que prioriza la jerarquía inversa: Reducir como acción principal, seguida de Reutilizar y Reciclar.
-
 
 ## 7. Ejecución y Evidencia
 Para poner en marcha el servidor de desarrollo, se ejecuta: python app.py
